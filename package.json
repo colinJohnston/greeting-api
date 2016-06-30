@@ -1,8 +1,8 @@
 {
   "name": "greeting-api",
   "version": "0.0.1",
-  "description": "simple api for Universal JS poc",
-  "main": "index.js",
+  "description": "Simple api for Universal JS POC",
+  "main": "server/server.js",
   "scripts": {
     "start": "mkdir -p data; babel-node server/server",
     "test": "echo \"Error: no test specified\" && exit 1"

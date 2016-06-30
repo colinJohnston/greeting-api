@@ -40,7 +40,6 @@ router.get('/', function (req, res) {
 router.put('/', jsonParser, function (req, res) {
     var ip = getIP(req);
     db.set(ip, req.body);
-    console.log('saved greeting ', ip, req.body);
     res.sendStatus(201);
 });
 
